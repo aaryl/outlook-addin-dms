@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnLoad">
+	<ribbon>
+		<tabs>
+			<tab idMso="TabNewMailMessage">
+				<group id="proofioMailComposeGroup" label="Proofio">
+					<button id="proofioSendAndFile" label="Senden und ablegen" size="large" imageMso="Send" onAction="OnSendAndFile" />
+					<checkBox id="proofioFileAfterSend" label="Nach Senden ablegen" getPressed="GetFileAfterSendPressed" onAction="OnFileAfterSendChanged" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>

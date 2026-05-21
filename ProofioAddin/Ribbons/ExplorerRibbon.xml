@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabMail">
+        <group id="proofioExplorerGroup" label="Proofio">
+          <button id="proofioSettings" label="Einstellungen" size="large" imageMso="FileProperties" onAction="OnSettings" />
+          <button id="proofioFileSelected" label="Markierte Mail in Akte ablegen" size="large" imageMso="FileSaveAs" onAction="OnFileSelectedMails" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabReadMessage">
+        <group id="proofioMailReadGroup" label="Proofio">
+          <button id="proofioFileOpenMail" label="In Akte ablegen" size="large" imageMso="FileSaveAs" onAction="OnFileOpenMail" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
