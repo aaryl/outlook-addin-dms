@@ -98,3 +98,4 @@ ProofioAddin/
 ## Lizenz
 
 MIT – siehe [LICENSE](LICENSE)
+Timo Bruns
